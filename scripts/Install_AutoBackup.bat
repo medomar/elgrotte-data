@@ -28,7 +28,7 @@ REM Delete existing task if present
 schtasks /delete /tn "ELGROTTE_AutoBackup" /f >nul 2>&1
 
 REM Create scheduled task at 18:00 every day
-schtasks /create /tn "ELGROTTE_AutoBackup" /tr "\"%SCRIPT_PATH%\"" /sc daily /st 18:00 /rl HIGHEST /f
+schtasks /create /tn "ELGROTTE_AutoBackup" /tr "\"%SCRIPT_PATH%\"" /sc daily /st 04:00 /rl HIGHEST /f
 
 if %errorlevel% equ 0 (
     echo.
@@ -37,7 +37,7 @@ if %errorlevel% equ 0 (
     echo ========================================
     echo.
     echo La sauvegarde automatique est programmee
-    echo tous les jours a 18h00.
+    echo tous les jours a 04h00.
     echo.
     echo Pour modifier l'heure:
     echo   Panneau de configuration ^> Outils d'administration
