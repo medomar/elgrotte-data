@@ -1,0 +1,35 @@
+# ===========================
+# ELGROTTE Café-Restaurant
+# Git Ignore Rules
+# ===========================
+
+# ----- Windows junk -----
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# ----- macOS junk -----
+.DS_Store
+._*
+
+# ----- Excel temporary files -----
+~$*.xlsx
+~$*.xls
+~$*.xlsm
+
+# ----- Temp / backup files -----
+*.tmp
+*.temp
+*.log
+*.bak
+*.swp
+*.swo
+*~
+
+# ----- Office lock files -----
+.~lock.*
+
+# ----- System files -----
+*.lnk
+*.ini
