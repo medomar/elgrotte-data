@@ -1,14 +1,14 @@
 @echo off
 REM ===========================
-REM ELGROTTE - Daily Backup Script
-REM Double-click this at end of day
+REM ELGROTTE - Sauvegarde Manuelle
+REM Cliquez sur ce fichier pour sauvegarder
 REM ===========================
 
 cd /d "%~dp0.."
 
 echo.
 echo ========================================
-echo    ELGROTTE - Sauvegarde du jour
+echo    ELGROTTE - Sauvegarde Manuelle
 echo ========================================
 echo.
 
@@ -21,6 +21,9 @@ if %errorlevel% neq 0 (
     exit /b 1
 )
 
+REM Pull latest changes first (safety)
+git pull --rebase >nul 2>&1
+
 REM Stage all changes
 git add -A
 
@@ -28,7 +31,7 @@ REM Check if there are changes to commit
 git diff --cached --quiet
 if %errorlevel% equ 0 (
     echo.
-    echo [INFO] Aucune modification detectee aujourd'hui.
+    echo [INFO] Aucune modification detectee.
     echo Rien a sauvegarder.
     echo.
     pause
@@ -40,7 +43,7 @@ for /f "tokens=1-3 delims=/" %%a in ('date /t') do set TODAY=%%a/%%b/%%c
 for /f "tokens=1-2 delims=: " %%a in ('time /t') do set NOW=%%a:%%b
 
 REM Commit with timestamp
-git commit -m "Sauvegarde ELGROTTE - %TODAY% %NOW%"
+git commit -m "Sauvegarde manuelle ELGROTTE - %TODAY% %NOW%"
 
 if %errorlevel% neq 0 (
     echo.
@@ -61,7 +64,7 @@ if %errorlevel% equ 0 (
     echo    SAUVEGARDE TERMINEE AVEC SUCCES
     echo ========================================
     echo.
-    echo Les donnees du jour ont ete sauvegardees.
+    echo Les donnees ont ete sauvegardees.
 ) else (
     echo.
     echo ========================================

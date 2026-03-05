@@ -33,3 +33,6 @@ $RECYCLE.BIN/
 # ----- System files -----
 *.lnk
 *.ini
+
+# ----- Backup logs -----
+scripts/backup.log
