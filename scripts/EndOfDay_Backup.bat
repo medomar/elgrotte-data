@@ -68,8 +68,14 @@ echo    Copie terminee.
 REM ---- STEP 2: Git commit ----
 echo [2/3] Sauvegarde...
 
-git pull --rebase >nul 2>&1
-git add -A
+REM Switch to comptable branch (create if needed)
+git checkout comptable >nul 2>&1
+if %errorlevel% neq 0 (
+    git checkout -b comptable >nul 2>&1
+)
+
+git pull origin comptable --rebase >nul 2>&1
+git add data/ database/ media/
 
 git diff --cached --quiet
 if %errorlevel% equ 0 (
@@ -96,7 +102,7 @@ if %errorlevel% neq 0 (
 
 REM ---- STEP 3: Push to server ----
 echo [3/3] Envoi vers le serveur...
-git push
+git push -u origin comptable
 
 if %errorlevel% equ 0 (
     echo.

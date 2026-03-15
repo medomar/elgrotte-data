@@ -45,9 +45,14 @@ if exist "%SOURCE_DRIVE%" (
     echo [INFO] Disque externe non present - sauvegarde fichiers locaux uniquement >> "%LOGFILE%"
 )
 
-REM Git operations
-git pull --rebase >> "%LOGFILE%" 2>&1
-git add -A
+REM Git operations — use comptable branch
+git checkout comptable >> "%LOGFILE%" 2>&1
+if %errorlevel% neq 0 (
+    git checkout -b comptable >> "%LOGFILE%" 2>&1
+)
+
+git pull origin comptable --rebase >> "%LOGFILE%" 2>&1
+git add data/ database/ media/
 
 git diff --cached --quiet
 if %errorlevel% equ 0 (
@@ -65,7 +70,7 @@ if %errorlevel% neq 0 (
     exit /b 1
 )
 
-git push >> "%LOGFILE%" 2>&1
+git push -u origin comptable >> "%LOGFILE%" 2>&1
 
 if %errorlevel% equ 0 (
     echo [OK] Sauvegarde envoyee >> "%LOGFILE%"
