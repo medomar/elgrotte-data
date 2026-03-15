@@ -1,0 +1,582 @@
+{
+  "_meta": {
+    "etablissement": "El Grotte Café-Restaurant",
+    "cuisine": "Tunisienne / Méditerranéenne",
+    "langue": "Français",
+    "note": "Quantités par unité/portion sauf indication contraire. Sources: recettes professionnelles standard.",
+    "version": "1.0",
+    "date": "2026-03-14"
+  },
+
+  "pizzas": {
+
+    "pate_pizza_base": {
+      "description": "Pâte à pizza — base pour 1 pizza (Ø 30 cm, pâton ~250g)",
+      "ingredients": [
+        { "nom": "farine (type 00 ou T55)", "quantite": "160g" },
+        { "nom": "eau tiède", "quantite": "100ml" },
+        { "nom": "levure boulangère fraîche", "quantite": "5g" },
+        { "nom": "sel", "quantite": "3g" },
+        { "nom": "huile d'olive", "quantite": "10ml" },
+        { "nom": "sucre", "quantite": "1g" }
+      ]
+    },
+
+    "sauce_tomate_pizza": {
+      "description": "Sauce tomate pour pizza — pour 1 pizza",
+      "ingredients": [
+        { "nom": "tomates pelées (conserve)", "quantite": "80g" },
+        { "nom": "ail", "quantite": "1 gousse" },
+        { "nom": "huile d'olive", "quantite": "10ml" },
+        { "nom": "origan séché", "quantite": "1g" },
+        { "nom": "sel", "quantite": "1g" },
+        { "nom": "poivre noir", "quantite": "0.5g" }
+      ]
+    },
+
+    "pizza_margherita": {
+      "description": "Pizza Margherita classique — 1 pizza (Ø 30 cm)",
+      "ingredients": [
+        { "nom": "pâte à pizza (voir pate_pizza_base)", "quantite": "250g" },
+        { "nom": "sauce tomate (voir sauce_tomate_pizza)", "quantite": "80ml" },
+        { "nom": "mozzarella (fior di latte)", "quantite": "120g" },
+        { "nom": "feuilles de basilic frais", "quantite": "5 feuilles" },
+        { "nom": "huile d'olive extra vierge", "quantite": "10ml" },
+        { "nom": "sel", "quantite": "1g" }
+      ]
+    },
+
+    "pizza_regina": {
+      "description": "Pizza Regina (Reine) — 1 pizza (Ø 30 cm)",
+      "ingredients": [
+        { "nom": "pâte à pizza", "quantite": "250g" },
+        { "nom": "sauce tomate", "quantite": "80ml" },
+        { "nom": "mozzarella", "quantite": "100g" },
+        { "nom": "jambon cuit", "quantite": "60g" },
+        { "nom": "champignons de Paris (en tranches)", "quantite": "60g" },
+        { "nom": "olives noires", "quantite": "20g" },
+        { "nom": "origan séché", "quantite": "1g" },
+        { "nom": "huile d'olive", "quantite": "10ml" }
+      ]
+    },
+
+    "pizza_quatre_fromages": {
+      "description": "Pizza Quatre Fromages — 1 pizza (Ø 30 cm)",
+      "ingredients": [
+        { "nom": "pâte à pizza", "quantite": "250g" },
+        { "nom": "sauce tomate", "quantite": "60ml" },
+        { "nom": "mozzarella", "quantite": "70g" },
+        { "nom": "gorgonzola (ou fromage bleu)", "quantite": "40g" },
+        { "nom": "parmesan râpé", "quantite": "30g" },
+        { "nom": "fromage de chèvre", "quantite": "30g" },
+        { "nom": "crème fraîche", "quantite": "20ml" },
+        { "nom": "origan séché", "quantite": "1g" }
+      ]
+    },
+
+    "pizza_poulet_harissa": {
+      "description": "Pizza Poulet-Harissa (spécialité tunisienne) — 1 pizza (Ø 30 cm)",
+      "ingredients": [
+        { "nom": "pâte à pizza", "quantite": "250g" },
+        { "nom": "sauce tomate", "quantite": "60ml" },
+        { "nom": "harissa", "quantite": "15g" },
+        { "nom": "mozzarella", "quantite": "100g" },
+        { "nom": "blanc de poulet (cuit, émincé)", "quantite": "80g" },
+        { "nom": "poivron rouge (en lanières)", "quantite": "40g" },
+        { "nom": "oignon rouge (en rondelles)", "quantite": "30g" },
+        { "nom": "huile d'olive", "quantite": "10ml" },
+        { "nom": "cumin moulu", "quantite": "1g" }
+      ]
+    },
+
+    "pizza_thon": {
+      "description": "Pizza Thon (très populaire en Tunisie) — 1 pizza (Ø 30 cm)",
+      "ingredients": [
+        { "nom": "pâte à pizza", "quantite": "250g" },
+        { "nom": "sauce tomate", "quantite": "80ml" },
+        { "nom": "mozzarella", "quantite": "100g" },
+        { "nom": "thon en boîte (égoutté)", "quantite": "80g" },
+        { "nom": "oignon (en rondelles)", "quantite": "30g" },
+        { "nom": "câpres", "quantite": "10g" },
+        { "nom": "olives noires", "quantite": "20g" },
+        { "nom": "huile d'olive", "quantite": "10ml" },
+        { "nom": "origan séché", "quantite": "1g" }
+      ]
+    },
+
+    "pizza_vegetarienne": {
+      "description": "Pizza Végétarienne — 1 pizza (Ø 30 cm)",
+      "ingredients": [
+        { "nom": "pâte à pizza", "quantite": "250g" },
+        { "nom": "sauce tomate", "quantite": "80ml" },
+        { "nom": "mozzarella", "quantite": "100g" },
+        { "nom": "poivron rouge", "quantite": "40g" },
+        { "nom": "poivron vert", "quantite": "40g" },
+        { "nom": "champignons de Paris", "quantite": "50g" },
+        { "nom": "tomates cerises", "quantite": "50g" },
+        { "nom": "courgette (en rondelles)", "quantite": "40g" },
+        { "nom": "oignon rouge", "quantite": "30g" },
+        { "nom": "huile d'olive", "quantite": "10ml" },
+        { "nom": "herbes de Provence", "quantite": "1g" }
+      ]
+    }
+  },
+
+  "boissons_chaudes": {
+
+    "espresso_simple": {
+      "description": "Espresso simple — 1 tasse (30ml)",
+      "ingredients": [
+        { "nom": "café en grains (mouture fine)", "quantite": "7g" },
+        { "nom": "eau", "quantite": "30ml" }
+      ]
+    },
+
+    "espresso_double": {
+      "description": "Double espresso — 1 tasse (60ml)",
+      "ingredients": [
+        { "nom": "café en grains (mouture fine)", "quantite": "14g" },
+        { "nom": "eau", "quantite": "60ml" }
+      ]
+    },
+
+    "cafe_noisette": {
+      "description": "Café noisette — 1 tasse",
+      "ingredients": [
+        { "nom": "café (mouture espresso)", "quantite": "7g" },
+        { "nom": "eau", "quantite": "30ml" },
+        { "nom": "lait entier (nuage)", "quantite": "15ml" }
+      ]
+    },
+
+    "cappuccino": {
+      "description": "Cappuccino — 1 tasse (150-180ml)",
+      "ingredients": [
+        { "nom": "café (mouture espresso)", "quantite": "18g" },
+        { "nom": "eau", "quantite": "60ml" },
+        { "nom": "lait entier froid", "quantite": "100ml" },
+        { "nom": "sucre (optionnel)", "quantite": "5g" }
+      ]
+    },
+
+    "cafe_latte": {
+      "description": "Café Latte — 1 verre (280-300ml)",
+      "ingredients": [
+        { "nom": "café (mouture espresso)", "quantite": "18g" },
+        { "nom": "eau", "quantite": "60ml" },
+        { "nom": "lait entier froid (vapeur)", "quantite": "200ml" },
+        { "nom": "sucre (optionnel)", "quantite": "5g" }
+      ]
+    },
+
+    "cafe_au_lait": {
+      "description": "Café au lait — 1 grand bol",
+      "ingredients": [
+        { "nom": "café moulu (filtre)", "quantite": "10g" },
+        { "nom": "eau chaude", "quantite": "100ml" },
+        { "nom": "lait entier chaud", "quantite": "150ml" }
+      ]
+    },
+
+    "the_menthe": {
+      "description": "Thé à la menthe tunisien — 1 verre",
+      "ingredients": [
+        { "nom": "thé vert (type Gunpowder)", "quantite": "3g" },
+        { "nom": "feuilles de menthe fraîche", "quantite": "8g" },
+        { "nom": "eau bouillante", "quantite": "200ml" },
+        { "nom": "sucre", "quantite": "15g" },
+        { "nom": "pignons de pin (optionnel)", "quantite": "5 pignons" }
+      ]
+    },
+
+    "chocolat_chaud": {
+      "description": "Chocolat chaud — 1 tasse (200ml)",
+      "ingredients": [
+        { "nom": "lait entier", "quantite": "200ml" },
+        { "nom": "chocolat noir (en poudre ou pastilles)", "quantite": "25g" },
+        { "nom": "sucre", "quantite": "10g" },
+        { "nom": "crème chantilly (optionnel)", "quantite": "20ml" }
+      ]
+    }
+  },
+
+  "boissons_froides": {
+
+    "jus_orange_frais": {
+      "description": "Jus d'orange frais pressé — 1 verre (250ml)",
+      "ingredients": [
+        { "nom": "oranges", "quantite": "3-4 unités (400g)" },
+        { "nom": "sucre (optionnel)", "quantite": "5g" },
+        { "nom": "glaçons (optionnel)", "quantite": "3 glaçons" }
+      ]
+    },
+
+    "jus_citron_menthe": {
+      "description": "Citronnade à la menthe — 1 verre (300ml)",
+      "ingredients": [
+        { "nom": "citrons", "quantite": "2 unités" },
+        { "nom": "feuilles de menthe fraîche", "quantite": "5g" },
+        { "nom": "sucre", "quantite": "20g" },
+        { "nom": "eau fraîche", "quantite": "200ml" },
+        { "nom": "glaçons", "quantite": "4 glaçons" }
+      ]
+    },
+
+    "smoothie_fraise_banane": {
+      "description": "Smoothie Fraise-Banane — 1 verre (300ml)",
+      "ingredients": [
+        { "nom": "fraises fraîches (ou surgelées)", "quantite": "100g" },
+        { "nom": "banane", "quantite": "1 unité (100g)" },
+        { "nom": "lait entier (ou lait végétal)", "quantite": "100ml" },
+        { "nom": "yaourt nature", "quantite": "50g" },
+        { "nom": "sucre (ou miel)", "quantite": "10g" },
+        { "nom": "glaçons", "quantite": "3 glaçons" }
+      ]
+    },
+
+    "smoothie_mangue_passion": {
+      "description": "Smoothie Mangue-Passion — 1 verre (300ml)",
+      "ingredients": [
+        { "nom": "mangue (fraîche ou surgelée)", "quantite": "120g" },
+        { "nom": "jus de fruit de la passion", "quantite": "60ml" },
+        { "nom": "jus d'orange", "quantite": "80ml" },
+        { "nom": "miel", "quantite": "10g" },
+        { "nom": "glaçons", "quantite": "3 glaçons" }
+      ]
+    },
+
+    "milk_shake_vanille": {
+      "description": "Milk-shake Vanille — 1 verre (350ml)",
+      "ingredients": [
+        { "nom": "glace à la vanille", "quantite": "150g" },
+        { "nom": "lait entier froid", "quantite": "150ml" },
+        { "nom": "extrait de vanille", "quantite": "2ml" },
+        { "nom": "crème chantilly", "quantite": "20ml" }
+      ]
+    },
+
+    "eau_minerale": {
+      "description": "Eau minérale — 1 bouteille",
+      "ingredients": [
+        { "nom": "eau minérale en bouteille", "quantite": "500ml" }
+      ]
+    }
+  },
+
+  "sandwichs_paninis": {
+
+    "sandwich_tunisien_classique": {
+      "description": "Sandwich Tunisien classique (baguette) — 1 portion",
+      "ingredients": [
+        { "nom": "baguette (demi)", "quantite": "120g" },
+        { "nom": "thon en boîte (égoutté)", "quantite": "60g" },
+        { "nom": "œuf dur", "quantite": "1 unité" },
+        { "nom": "tomate (en dés)", "quantite": "40g" },
+        { "nom": "poivron vert (en dés)", "quantite": "30g" },
+        { "nom": "concombre (en dés)", "quantite": "30g" },
+        { "nom": "olives vertes ou noires", "quantite": "15g" },
+        { "nom": "câpres", "quantite": "10g" },
+        { "nom": "harissa", "quantite": "10g" },
+        { "nom": "huile d'olive", "quantite": "10ml" },
+        { "nom": "sel", "quantite": "1g" },
+        { "nom": "poivre noir", "quantite": "0.5g" }
+      ]
+    },
+
+    "fricassee_tunisienne": {
+      "description": "Fricassée Tunisienne (pain frit) — 1 portion",
+      "ingredients": [
+        { "nom": "pain ficassée (pâte à pain frite)", "quantite": "80g" },
+        { "nom": "farine (pour la pâte)", "quantite": "60g" },
+        { "nom": "levure boulangère", "quantite": "2g" },
+        { "nom": "huile de friture", "quantite": "200ml" },
+        { "nom": "thon en boîte", "quantite": "40g" },
+        { "nom": "harissa", "quantite": "8g" },
+        { "nom": "œuf dur", "quantite": "1 unité" },
+        { "nom": "olives noires", "quantite": "10g" },
+        { "nom": "câpres", "quantite": "5g" },
+        { "nom": "fromage (fromage fondu)", "quantite": "20g" }
+      ]
+    },
+
+    "panini_poulet_grille": {
+      "description": "Panini Poulet Grillé — 1 portion",
+      "ingredients": [
+        { "nom": "pain ciabatta ou pain panini", "quantite": "120g" },
+        { "nom": "blanc de poulet grillé (en tranches)", "quantite": "100g" },
+        { "nom": "mozzarella", "quantite": "50g" },
+        { "nom": "tomate (en rondelles)", "quantite": "40g" },
+        { "nom": "salade verte (feuilles)", "quantite": "20g" },
+        { "nom": "sauce pesto ou mayo", "quantite": "20g" },
+        { "nom": "sel, poivre", "quantite": "1g" }
+      ]
+    },
+
+    "panini_thon_harissa": {
+      "description": "Panini Thon-Harissa — 1 portion",
+      "ingredients": [
+        { "nom": "pain panini", "quantite": "120g" },
+        { "nom": "thon en boîte (égoutté)", "quantite": "80g" },
+        { "nom": "harissa", "quantite": "15g" },
+        { "nom": "mozzarella ou fromage fondu", "quantite": "50g" },
+        { "nom": "tomate (en rondelles)", "quantite": "40g" },
+        { "nom": "huile d'olive", "quantite": "10ml" }
+      ]
+    },
+
+    "club_sandwich": {
+      "description": "Club Sandwich — 1 portion",
+      "ingredients": [
+        { "nom": "pain de mie (3 tranches)", "quantite": "90g" },
+        { "nom": "blanc de poulet cuit (tranches)", "quantite": "80g" },
+        { "nom": "bacon ou jambon", "quantite": "30g" },
+        { "nom": "tomate (en rondelles)", "quantite": "40g" },
+        { "nom": "salade iceberg", "quantite": "30g" },
+        { "nom": "mayonnaise", "quantite": "25g" },
+        { "nom": "moutarde", "quantite": "10g" },
+        { "nom": "œuf dur (optionnel)", "quantite": "1 unité" }
+      ]
+    }
+  },
+
+  "salades": {
+
+    "salade_grecque": {
+      "description": "Salade Grecque — 1 portion",
+      "ingredients": [
+        { "nom": "tomates (en quartiers)", "quantite": "120g" },
+        { "nom": "concombre (en demi-rondelles)", "quantite": "80g" },
+        { "nom": "oignon rouge (en rondelles)", "quantite": "30g" },
+        { "nom": "poivron vert (en lanières)", "quantite": "40g" },
+        { "nom": "olives de Kalamata", "quantite": "30g" },
+        { "nom": "feta", "quantite": "60g" },
+        { "nom": "huile d'olive extra vierge", "quantite": "20ml" },
+        { "nom": "vinaigre de vin rouge", "quantite": "5ml" },
+        { "nom": "origan séché", "quantite": "1g" },
+        { "nom": "sel, poivre", "quantite": "1g" }
+      ]
+    },
+
+    "salade_nicoise": {
+      "description": "Salade Niçoise — 1 portion",
+      "ingredients": [
+        { "nom": "salade verte (mesclun ou laitue)", "quantite": "60g" },
+        { "nom": "thon en boîte (égoutté)", "quantite": "80g" },
+        { "nom": "œufs durs", "quantite": "2 unités" },
+        { "nom": "tomates cerises", "quantite": "80g" },
+        { "nom": "haricots verts (cuits)", "quantite": "60g" },
+        { "nom": "olives noires", "quantite": "20g" },
+        { "nom": "anchois (en filets)", "quantite": "15g" },
+        { "nom": "oignon rouge", "quantite": "20g" },
+        { "nom": "huile d'olive", "quantite": "20ml" },
+        { "nom": "vinaigre", "quantite": "5ml" },
+        { "nom": "sel, poivre", "quantite": "1g" }
+      ]
+    },
+
+    "salade_cesar": {
+      "description": "Salade César — 1 portion",
+      "ingredients": [
+        { "nom": "cœurs de romaine (laitue)", "quantite": "100g" },
+        { "nom": "blanc de poulet grillé (tranches)", "quantite": "80g" },
+        { "nom": "parmesan râpé", "quantite": "20g" },
+        { "nom": "croûtons à l'ail", "quantite": "30g" },
+        { "nom": "sauce César (mayonnaise, anchois, citron, ail)", "quantite": "30ml" }
+      ],
+      "sauce_cesar_ingredients": [
+        { "nom": "mayonnaise", "quantite": "30g" },
+        { "nom": "anchois (pâte)", "quantite": "5g" },
+        { "nom": "jus de citron", "quantite": "5ml" },
+        { "nom": "ail (haché)", "quantite": "2g" },
+        { "nom": "parmesan râpé", "quantite": "10g" },
+        { "nom": "sauce Worcestershire", "quantite": "2ml" }
+      ]
+    },
+
+    "salade_mediterraneenne": {
+      "description": "Salade Méditerranéenne maison — 1 portion",
+      "ingredients": [
+        { "nom": "mesclun ou roquette", "quantite": "60g" },
+        { "nom": "tomates cerises", "quantite": "60g" },
+        { "nom": "concombre", "quantite": "50g" },
+        { "nom": "poivrons grillés (en bocal)", "quantite": "40g" },
+        { "nom": "olives vertes", "quantite": "20g" },
+        { "nom": "feta émiettée", "quantite": "40g" },
+        { "nom": "pois chiches cuits", "quantite": "50g" },
+        { "nom": "huile d'olive", "quantite": "20ml" },
+        { "nom": "jus de citron", "quantite": "10ml" },
+        { "nom": "cumin moulu", "quantite": "0.5g" },
+        { "nom": "sel, poivre", "quantite": "1g" }
+      ]
+    }
+  },
+
+  "viennoiseries_patisseries": {
+
+    "croissant_beurre": {
+      "description": "Croissant pur beurre — 1 pièce (~60g)",
+      "ingredients": [
+        { "nom": "farine T45", "quantite": "30g" },
+        { "nom": "farine T55", "quantite": "30g" },
+        { "nom": "beurre de tourage", "quantite": "30g" },
+        { "nom": "lait entier", "quantite": "18ml" },
+        { "nom": "eau", "quantite": "13ml" },
+        { "nom": "sucre", "quantite": "2.5g" },
+        { "nom": "sel", "quantite": "1.2g" },
+        { "nom": "levure fraîche", "quantite": "1.5g" },
+        { "nom": "œuf (dorure)", "quantite": "0.1 unité" }
+      ]
+    },
+
+    "pain_au_chocolat": {
+      "description": "Pain au chocolat — 1 pièce (~80g)",
+      "ingredients": [
+        { "nom": "farine T45", "quantite": "30g" },
+        { "nom": "farine T55", "quantite": "30g" },
+        { "nom": "beurre de tourage", "quantite": "30g" },
+        { "nom": "lait entier", "quantite": "18ml" },
+        { "nom": "eau", "quantite": "13ml" },
+        { "nom": "sucre", "quantite": "2.5g" },
+        { "nom": "sel", "quantite": "1.2g" },
+        { "nom": "levure fraîche", "quantite": "1.5g" },
+        { "nom": "barres de chocolat noir", "quantite": "2 barres (~16g)" },
+        { "nom": "œuf (dorure)", "quantite": "0.1 unité" }
+      ]
+    },
+
+    "muffin_chocolat": {
+      "description": "Muffin au chocolat — 1 pièce (~90g)",
+      "ingredients": [
+        { "nom": "farine", "quantite": "40g" },
+        { "nom": "sucre", "quantite": "30g" },
+        { "nom": "cacao en poudre non sucré", "quantite": "10g" },
+        { "nom": "beurre (fondu)", "quantite": "20g" },
+        { "nom": "œuf", "quantite": "0.5 unité" },
+        { "nom": "lait entier", "quantite": "40ml" },
+        { "nom": "levure chimique (baking powder)", "quantite": "2g" },
+        { "nom": "sel", "quantite": "0.5g" },
+        { "nom": "pépites de chocolat", "quantite": "15g" }
+      ]
+    },
+
+    "brownie_chocolat": {
+      "description": "Brownie au chocolat — 1 part (~80g)",
+      "ingredients": [
+        { "nom": "chocolat noir (70%)", "quantite": "40g" },
+        { "nom": "beurre", "quantite": "30g" },
+        { "nom": "sucre", "quantite": "35g" },
+        { "nom": "œuf", "quantite": "0.5 unité" },
+        { "nom": "farine", "quantite": "15g" },
+        { "nom": "cacao en poudre", "quantite": "5g" },
+        { "nom": "sel", "quantite": "0.5g" },
+        { "nom": "extrait de vanille", "quantite": "1ml" }
+      ]
+    },
+
+    "tiramisu": {
+      "description": "Tiramisu — 1 portion (verrine ~150g)",
+      "ingredients": [
+        { "nom": "mascarpone", "quantite": "60g" },
+        { "nom": "œuf (jaune)", "quantite": "0.5 unité" },
+        { "nom": "sucre", "quantite": "15g" },
+        { "nom": "crème liquide entière (35% MG)", "quantite": "30ml" },
+        { "nom": "biscuits à la cuillère (savoiardi)", "quantite": "3 biscuits (30g)" },
+        { "nom": "café espresso (froid)", "quantite": "40ml" },
+        { "nom": "cacao en poudre (saupoudrage)", "quantite": "3g" }
+      ]
+    },
+
+    "cheesecake_portion": {
+      "description": "Cheesecake — 1 part (~130g)",
+      "ingredients": [
+        { "nom": "fromage frais type Philadelphia", "quantite": "60g" },
+        { "nom": "crème fraîche épaisse", "quantite": "20g" },
+        { "nom": "sucre", "quantite": "20g" },
+        { "nom": "œuf", "quantite": "0.3 unité" },
+        { "nom": "biscuits sablés (type Digestive, en poudre)", "quantite": "20g" },
+        { "nom": "beurre (fondu)", "quantite": "10g" },
+        { "nom": "extrait de vanille", "quantite": "1ml" },
+        { "nom": "coulis de fruits rouges", "quantite": "20ml" }
+      ]
+    },
+
+    "crepe_beurre_sucre": {
+      "description": "Crêpe Beurre-Sucre — 1 pièce",
+      "ingredients": [
+        { "nom": "farine", "quantite": "25g" },
+        { "nom": "œuf", "quantite": "0.3 unité" },
+        { "nom": "lait entier", "quantite": "60ml" },
+        { "nom": "beurre (fondu)", "quantite": "5g" },
+        { "nom": "sucre en poudre (garniture)", "quantite": "5g" },
+        { "nom": "beurre (garniture)", "quantite": "5g" }
+      ]
+    },
+
+    "waffle": {
+      "description": "Gaufre (Waffle) — 1 pièce",
+      "ingredients": [
+        { "nom": "farine", "quantite": "50g" },
+        { "nom": "œuf", "quantite": "0.5 unité" },
+        { "nom": "lait entier", "quantite": "60ml" },
+        { "nom": "beurre (fondu)", "quantite": "20g" },
+        { "nom": "sucre", "quantite": "10g" },
+        { "nom": "levure chimique", "quantite": "2g" },
+        { "nom": "sel", "quantite": "0.5g" },
+        { "nom": "extrait de vanille", "quantite": "1ml" },
+        { "nom": "garniture (Nutella ou chantilly + fraises)", "quantite": "30g" }
+      ]
+    }
+  },
+
+  "plats_chauds": {
+
+    "omelette_fromage": {
+      "description": "Omelette au fromage — 1 portion",
+      "ingredients": [
+        { "nom": "œufs", "quantite": "3 unités" },
+        { "nom": "fromage râpé (emmental ou gruyère)", "quantite": "40g" },
+        { "nom": "beurre", "quantite": "10g" },
+        { "nom": "sel, poivre", "quantite": "1g" },
+        { "nom": "ciboulette fraîche (optionnel)", "quantite": "2g" }
+      ]
+    },
+
+    "croque_monsieur": {
+      "description": "Croque-Monsieur — 1 portion",
+      "ingredients": [
+        { "nom": "pain de mie (2 tranches épaisses)", "quantite": "80g" },
+        { "nom": "jambon cuit", "quantite": "60g" },
+        { "nom": "fromage emmental ou gruyère râpé", "quantite": "50g" },
+        { "nom": "beurre", "quantite": "15g" },
+        { "nom": "moutarde de Dijon", "quantite": "10g" },
+        { "nom": "béchamel (optionnel)", "quantite": "30ml" }
+      ]
+    }
+  },
+
+  "extras_condiments": {
+
+    "harissa_maison": {
+      "description": "Harissa maison — pot 100g",
+      "ingredients": [
+        { "nom": "piments rouges séchés", "quantite": "50g" },
+        { "nom": "ail", "quantite": "3 gousses" },
+        { "nom": "huile d'olive", "quantite": "30ml" },
+        { "nom": "carvi (cumin des prés) moulu", "quantite": "2g" },
+        { "nom": "coriandre moulue", "quantite": "2g" },
+        { "nom": "sel", "quantite": "3g" }
+      ]
+    },
+
+    "sauce_mayonnaise": {
+      "description": "Mayonnaise maison — 100ml",
+      "ingredients": [
+        { "nom": "jaune d'œuf", "quantite": "1 unité" },
+        { "nom": "huile de tournesol", "quantite": "100ml" },
+        { "nom": "moutarde de Dijon", "quantite": "5g" },
+        { "nom": "vinaigre blanc (ou jus de citron)", "quantite": "5ml" },
+        { "nom": "sel", "quantite": "1g" }
+      ]
+    }
+  }
+}
