@@ -52,7 +52,7 @@ if %errorlevel% neq 0 (
 )
 
 git pull origin comptable --rebase >> "%LOGFILE%" 2>&1
-git add data/ database/ media/
+git add -A
 
 git diff --cached --quiet
 if %errorlevel% equ 0 (
